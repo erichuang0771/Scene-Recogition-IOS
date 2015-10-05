@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2002F3EB1BB1D5E8002CCFF0 /* fdict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3EA1BB1D5E8002CCFF0 /* fdict.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F3ED1BB1F55B002CCFF0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2002F3EC1BB1F55B002CCFF0 /* Accelerate.framework */; };
+		2002F3F01BB1F62E002CCFF0 /* armadillo in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3EE1BB1F62E002CCFF0 /* armadillo */; settings = {ASSET_TAGS = (); }; };
+		2002F3F11BB1F62E002CCFF0 /* armadillo_bits in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3EF1BB1F62E002CCFF0 /* armadillo_bits */; settings = {ASSET_TAGS = (); }; };
+		2002F3FA1BB228D1002CCFF0 /* SceneRec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2002F3F91BB228D1002CCFF0 /* SceneRec.mm */; settings = {ASSET_TAGS = (); }; };
+		2002F4241BB24724002CCFF0 /* filter1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3FB1BB24724002CCFF0 /* filter1.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4251BB24724002CCFF0 /* filter2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3FC1BB24724002CCFF0 /* filter2.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4261BB24724002CCFF0 /* filter3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3FD1BB24724002CCFF0 /* filter3.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4271BB24724002CCFF0 /* filter4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3FE1BB24724002CCFF0 /* filter4.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4281BB24724002CCFF0 /* filter5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F3FF1BB24724002CCFF0 /* filter5.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4291BB24724002CCFF0 /* filter6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4001BB24724002CCFF0 /* filter6.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42A1BB24724002CCFF0 /* filter7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4011BB24724002CCFF0 /* filter7.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42B1BB24724002CCFF0 /* filter8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4021BB24724002CCFF0 /* filter8.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42C1BB24724002CCFF0 /* filter9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4031BB24724002CCFF0 /* filter9.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42D1BB24724002CCFF0 /* filter10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4041BB24724002CCFF0 /* filter10.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42E1BB24724002CCFF0 /* filter11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4051BB24724002CCFF0 /* filter11.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F42F1BB24724002CCFF0 /* filter12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4061BB24724002CCFF0 /* filter12.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4301BB24724002CCFF0 /* filter13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4071BB24724002CCFF0 /* filter13.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4311BB24724002CCFF0 /* filter14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4081BB24724002CCFF0 /* filter14.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4321BB24724002CCFF0 /* filter15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4091BB24724002CCFF0 /* filter15.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4331BB24724002CCFF0 /* filter16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40A1BB24724002CCFF0 /* filter16.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4341BB24724002CCFF0 /* filter17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40B1BB24724002CCFF0 /* filter17.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4351BB24724002CCFF0 /* filter18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40C1BB24724002CCFF0 /* filter18.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4361BB24724002CCFF0 /* filter19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40D1BB24724002CCFF0 /* filter19.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4371BB24724002CCFF0 /* filter20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40E1BB24724002CCFF0 /* filter20.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4381BB24724002CCFF0 /* filter21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F40F1BB24724002CCFF0 /* filter21.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4391BB24724002CCFF0 /* filter22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4101BB24724002CCFF0 /* filter22.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43A1BB24724002CCFF0 /* filter23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4111BB24724002CCFF0 /* filter23.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43B1BB24724002CCFF0 /* filter24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4121BB24724002CCFF0 /* filter24.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43C1BB24724002CCFF0 /* filter25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4131BB24724002CCFF0 /* filter25.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43D1BB24724002CCFF0 /* filter26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4141BB24724002CCFF0 /* filter26.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43E1BB24724002CCFF0 /* filter27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4151BB24724002CCFF0 /* filter27.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F43F1BB24724002CCFF0 /* filter28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4161BB24724002CCFF0 /* filter28.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4401BB24724002CCFF0 /* filter29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4171BB24724002CCFF0 /* filter29.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4411BB24724002CCFF0 /* filter30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4181BB24724002CCFF0 /* filter30.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4421BB24724002CCFF0 /* filter31.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4191BB24724002CCFF0 /* filter31.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4431BB24724002CCFF0 /* filter32.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41A1BB24724002CCFF0 /* filter32.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4441BB24724002CCFF0 /* filter33.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41B1BB24724002CCFF0 /* filter33.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4451BB24724002CCFF0 /* filter34.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41C1BB24724002CCFF0 /* filter34.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4461BB24724002CCFF0 /* filter35.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41D1BB24724002CCFF0 /* filter35.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4471BB24724002CCFF0 /* filter36.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41E1BB24724002CCFF0 /* filter36.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4481BB24724002CCFF0 /* filter37.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F41F1BB24724002CCFF0 /* filter37.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F4491BB24724002CCFF0 /* filter38.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4201BB24724002CCFF0 /* filter38.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F44A1BB24724002CCFF0 /* Theta2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4211BB24724002CCFF0 /* Theta2.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F44B1BB24724002CCFF0 /* Theta1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4221BB24724002CCFF0 /* Theta1.txt */; settings = {ASSET_TAGS = (); }; };
+		2002F44C1BB24724002CCFF0 /* dict.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2002F4231BB24724002CCFF0 /* dict.txt */; settings = {ASSET_TAGS = (); }; };
+		206225B91BABD85D00C49205 /* haarcascade_eye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 206225B81BABD85D00C49205 /* haarcascade_eye.xml */; settings = {ASSET_TAGS = (); }; };
+		2074180B1BBB921E008107F2 /* start.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2074180A1BBB921E008107F2 /* start.jpg */; settings = {ASSET_TAGS = (); }; };
+		2074180D1BBB9CD0008107F2 /* c1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2074180C1BBB9CD0008107F2 /* c1.jpg */; settings = {ASSET_TAGS = (); }; };
+		207418111BBB9FF7008107F2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207418101BBB9FF7008107F2 /* AVFoundation.framework */; };
+		2074181E1BBBB13D008107F2 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 2074181D1BBBB13D008107F2 /* start.png */; settings = {ASSET_TAGS = (); }; };
+		207418241BBBB180008107F2 /* c2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 207418231BBBB180008107F2 /* c2.jpg */; settings = {ASSET_TAGS = (); }; };
+		207418281BBBB22D008107F2 /* c3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 207418271BBBB22D008107F2 /* c3.jpg */; settings = {ASSET_TAGS = (); }; };
+		2074182E1BBBB2F1008107F2 /* c4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2074182D1BBBB2F1008107F2 /* c4.jpg */; settings = {ASSET_TAGS = (); }; };
+		207418301BBBB317008107F2 /* c5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2074182F1BBBB317008107F2 /* c5.jpg */; settings = {ASSET_TAGS = (); }; };
+		207418321BBBB3F4008107F2 /* c6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 207418311BBBB3F4008107F2 /* c6.jpg */; settings = {ASSET_TAGS = (); }; };
+		20D64D341BABC60F00800DDA /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 20D64D331BABC60E00800DDA /* haarcascade_frontalface_alt2.xml */; settings = {ASSET_TAGS = (); }; };
+		52DD7F831B9DEA0D001257DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DD7F821B9DEA0D001257DD /* main.m */; };
+		52DD7F861B9DEA0D001257DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DD7F851B9DEA0D001257DD /* AppDelegate.m */; };
+		52DD7F891B9DEA0D001257DD /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 52DD7F881B9DEA0D001257DD /* ViewController.mm */; };
+		52DD7F8C1B9DEA0D001257DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD7F8A1B9DEA0D001257DD /* Main.storyboard */; };
+		52DD7F8E1B9DEA0D001257DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DD7F8D1B9DEA0D001257DD /* Images.xcassets */; };
+		52DD7F911B9DEA0D001257DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52DD7F8F1B9DEA0D001257DD /* LaunchScreen.xib */; };
+		52DD7F9D1B9DEA0D001257DD /* Intro_iOS_OpenCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DD7F9C1B9DEA0D001257DD /* Intro_iOS_OpenCVTests.m */; };
+		52DD7FA71B9DEA20001257DD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD7FA61B9DEA20001257DD /* opencv2.framework */; };
+		52DD7FA91B9DEA2E001257DD /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 52DD7FA81B9DEA2E001257DD /* lena.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52DD7F971B9DEA0D001257DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52DD7F751B9DEA0D001257DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52DD7F7C1B9DEA0D001257DD;
+			remoteInfo = Intro_iOS_OpenCV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2002F3EA1BB1D5E8002CCFF0 /* fdict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fdict.txt; sourceTree = "<group>"; };
+		2002F3EC1BB1F55B002CCFF0 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2002F3EE1BB1F62E002CCFF0 /* armadillo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = armadillo; sourceTree = "<group>"; };
+		2002F3EF1BB1F62E002CCFF0 /* armadillo_bits */ = {isa = PBXFileReference; lastKnownFileType = folder; path = armadillo_bits; sourceTree = "<group>"; };
+		2002F3F81BB226E3002CCFF0 /* SceneRec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneRec.h; sourceTree = "<group>"; };
+		2002F3F91BB228D1002CCFF0 /* SceneRec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SceneRec.mm; sourceTree = "<group>"; };
+		2002F3FB1BB24724002CCFF0 /* filter1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter1.txt; sourceTree = "<group>"; };
+		2002F3FC1BB24724002CCFF0 /* filter2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter2.txt; sourceTree = "<group>"; };
+		2002F3FD1BB24724002CCFF0 /* filter3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter3.txt; sourceTree = "<group>"; };
+		2002F3FE1BB24724002CCFF0 /* filter4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter4.txt; sourceTree = "<group>"; };
+		2002F3FF1BB24724002CCFF0 /* filter5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter5.txt; sourceTree = "<group>"; };
+		2002F4001BB24724002CCFF0 /* filter6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter6.txt; sourceTree = "<group>"; };
+		2002F4011BB24724002CCFF0 /* filter7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter7.txt; sourceTree = "<group>"; };
+		2002F4021BB24724002CCFF0 /* filter8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter8.txt; sourceTree = "<group>"; };
+		2002F4031BB24724002CCFF0 /* filter9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter9.txt; sourceTree = "<group>"; };
+		2002F4041BB24724002CCFF0 /* filter10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter10.txt; sourceTree = "<group>"; };
+		2002F4051BB24724002CCFF0 /* filter11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter11.txt; sourceTree = "<group>"; };
+		2002F4061BB24724002CCFF0 /* filter12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter12.txt; sourceTree = "<group>"; };
+		2002F4071BB24724002CCFF0 /* filter13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter13.txt; sourceTree = "<group>"; };
+		2002F4081BB24724002CCFF0 /* filter14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter14.txt; sourceTree = "<group>"; };
+		2002F4091BB24724002CCFF0 /* filter15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter15.txt; sourceTree = "<group>"; };
+		2002F40A1BB24724002CCFF0 /* filter16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter16.txt; sourceTree = "<group>"; };
+		2002F40B1BB24724002CCFF0 /* filter17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter17.txt; sourceTree = "<group>"; };
+		2002F40C1BB24724002CCFF0 /* filter18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter18.txt; sourceTree = "<group>"; };
+		2002F40D1BB24724002CCFF0 /* filter19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter19.txt; sourceTree = "<group>"; };
+		2002F40E1BB24724002CCFF0 /* filter20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter20.txt; sourceTree = "<group>"; };
+		2002F40F1BB24724002CCFF0 /* filter21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter21.txt; sourceTree = "<group>"; };
+		2002F4101BB24724002CCFF0 /* filter22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter22.txt; sourceTree = "<group>"; };
+		2002F4111BB24724002CCFF0 /* filter23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter23.txt; sourceTree = "<group>"; };
+		2002F4121BB24724002CCFF0 /* filter24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter24.txt; sourceTree = "<group>"; };
+		2002F4131BB24724002CCFF0 /* filter25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter25.txt; sourceTree = "<group>"; };
+		2002F4141BB24724002CCFF0 /* filter26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter26.txt; sourceTree = "<group>"; };
+		2002F4151BB24724002CCFF0 /* filter27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter27.txt; sourceTree = "<group>"; };
+		2002F4161BB24724002CCFF0 /* filter28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter28.txt; sourceTree = "<group>"; };
+		2002F4171BB24724002CCFF0 /* filter29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter29.txt; sourceTree = "<group>"; };
+		2002F4181BB24724002CCFF0 /* filter30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter30.txt; sourceTree = "<group>"; };
+		2002F4191BB24724002CCFF0 /* filter31.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter31.txt; sourceTree = "<group>"; };
+		2002F41A1BB24724002CCFF0 /* filter32.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter32.txt; sourceTree = "<group>"; };
+		2002F41B1BB24724002CCFF0 /* filter33.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter33.txt; sourceTree = "<group>"; };
+		2002F41C1BB24724002CCFF0 /* filter34.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter34.txt; sourceTree = "<group>"; };
+		2002F41D1BB24724002CCFF0 /* filter35.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter35.txt; sourceTree = "<group>"; };
+		2002F41E1BB24724002CCFF0 /* filter36.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter36.txt; sourceTree = "<group>"; };
+		2002F41F1BB24724002CCFF0 /* filter37.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter37.txt; sourceTree = "<group>"; };
+		2002F4201BB24724002CCFF0 /* filter38.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = filter38.txt; sourceTree = "<group>"; };
+		2002F4211BB24724002CCFF0 /* Theta2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Theta2.txt; sourceTree = "<group>"; };
+		2002F4221BB24724002CCFF0 /* Theta1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Theta1.txt; sourceTree = "<group>"; };
+		2002F4231BB24724002CCFF0 /* dict.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dict.txt; sourceTree = "<group>"; };
+		206225B81BABD85D00C49205 /* haarcascade_eye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye.xml; sourceTree = "<group>"; };
+		2074180A1BBB921E008107F2 /* start.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = start.jpg; sourceTree = "<group>"; };
+		2074180C1BBB9CD0008107F2 /* c1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c1.jpg; sourceTree = "<group>"; };
+		207418101BBB9FF7008107F2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2074181D1BBBB13D008107F2 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		207418231BBBB180008107F2 /* c2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c2.jpg; sourceTree = "<group>"; };
+		207418271BBBB22D008107F2 /* c3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c3.jpg; sourceTree = "<group>"; };
+		2074182D1BBBB2F1008107F2 /* c4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c4.jpg; sourceTree = "<group>"; };
+		2074182F1BBBB317008107F2 /* c5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c5.jpg; sourceTree = "<group>"; };
+		207418311BBBB3F4008107F2 /* c6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c6.jpg; sourceTree = "<group>"; };
+		20D64D331BABC60E00800DDA /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_alt2.xml; path = ../haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		52DD7F7D1B9DEA0D001257DD /* Intro_iOS_OpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intro_iOS_OpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DD7F811B9DEA0D001257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DD7F821B9DEA0D001257DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52DD7F841B9DEA0D001257DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52DD7F851B9DEA0D001257DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52DD7F871B9DEA0D001257DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52DD7F881B9DEA0D001257DD /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		52DD7F8B1B9DEA0D001257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DD7F8D1B9DEA0D001257DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52DD7F901B9DEA0D001257DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52DD7F961B9DEA0D001257DD /* Intro_iOS_OpenCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Intro_iOS_OpenCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DD7F9B1B9DEA0D001257DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DD7F9C1B9DEA0D001257DD /* Intro_iOS_OpenCVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Intro_iOS_OpenCVTests.m; sourceTree = "<group>"; };
+		52DD7FA61B9DEA20001257DD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		52DD7FA81B9DEA2E001257DD /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DD7F7A1B9DEA0D001257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207418111BBB9FF7008107F2 /* AVFoundation.framework in Frameworks */,
+				2002F3ED1BB1F55B002CCFF0 /* Accelerate.framework in Frameworks */,
+				52DD7FA71B9DEA20001257DD /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DD7F931B9DEA0D001257DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DD7F741B9DEA0D001257DD = {
+			isa = PBXGroup;
+			children = (
+				207418101BBB9FF7008107F2 /* AVFoundation.framework */,
+				2002F3EC1BB1F55B002CCFF0 /* Accelerate.framework */,
+				52DD7FA61B9DEA20001257DD /* opencv2.framework */,
+				52DD7F7F1B9DEA0D001257DD /* Intro_iOS_OpenCV */,
+				52DD7F991B9DEA0D001257DD /* Intro_iOS_OpenCVTests */,
+				52DD7F7E1B9DEA0D001257DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DD7F7E1B9DEA0D001257DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DD7F7D1B9DEA0D001257DD /* Intro_iOS_OpenCV.app */,
+				52DD7F961B9DEA0D001257DD /* Intro_iOS_OpenCVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DD7F7F1B9DEA0D001257DD /* Intro_iOS_OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				52DD7F841B9DEA0D001257DD /* AppDelegate.h */,
+				2002F3EE1BB1F62E002CCFF0 /* armadillo */,
+				2002F3EF1BB1F62E002CCFF0 /* armadillo_bits */,
+				52DD7F851B9DEA0D001257DD /* AppDelegate.m */,
+				52DD7F871B9DEA0D001257DD /* ViewController.h */,
+				2002F3F81BB226E3002CCFF0 /* SceneRec.h */,
+				2002F3F91BB228D1002CCFF0 /* SceneRec.mm */,
+				52DD7F881B9DEA0D001257DD /* ViewController.mm */,
+				52DD7F8A1B9DEA0D001257DD /* Main.storyboard */,
+				52DD7F8D1B9DEA0D001257DD /* Images.xcassets */,
+				52DD7F8F1B9DEA0D001257DD /* LaunchScreen.xib */,
+				52DD7F801B9DEA0D001257DD /* Supporting Files */,
+			);
+			path = Intro_iOS_OpenCV;
+			sourceTree = "<group>";
+		};
+		52DD7F801B9DEA0D001257DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				207418271BBBB22D008107F2 /* c3.jpg */,
+				2074182D1BBBB2F1008107F2 /* c4.jpg */,
+				207418311BBBB3F4008107F2 /* c6.jpg */,
+				2074182F1BBBB317008107F2 /* c5.jpg */,
+				2074181D1BBBB13D008107F2 /* start.png */,
+				2002F3FB1BB24724002CCFF0 /* filter1.txt */,
+				207418231BBBB180008107F2 /* c2.jpg */,
+				2074180C1BBB9CD0008107F2 /* c1.jpg */,
+				2074180A1BBB921E008107F2 /* start.jpg */,
+				2002F3FC1BB24724002CCFF0 /* filter2.txt */,
+				2002F3FD1BB24724002CCFF0 /* filter3.txt */,
+				2002F3FE1BB24724002CCFF0 /* filter4.txt */,
+				2002F3FF1BB24724002CCFF0 /* filter5.txt */,
+				2002F4001BB24724002CCFF0 /* filter6.txt */,
+				2002F4011BB24724002CCFF0 /* filter7.txt */,
+				2002F4021BB24724002CCFF0 /* filter8.txt */,
+				2002F4031BB24724002CCFF0 /* filter9.txt */,
+				2002F4041BB24724002CCFF0 /* filter10.txt */,
+				2002F4051BB24724002CCFF0 /* filter11.txt */,
+				2002F4061BB24724002CCFF0 /* filter12.txt */,
+				2002F4071BB24724002CCFF0 /* filter13.txt */,
+				2002F4081BB24724002CCFF0 /* filter14.txt */,
+				2002F4091BB24724002CCFF0 /* filter15.txt */,
+				2002F40A1BB24724002CCFF0 /* filter16.txt */,
+				2002F40B1BB24724002CCFF0 /* filter17.txt */,
+				2002F40C1BB24724002CCFF0 /* filter18.txt */,
+				2002F40D1BB24724002CCFF0 /* filter19.txt */,
+				2002F40E1BB24724002CCFF0 /* filter20.txt */,
+				2002F40F1BB24724002CCFF0 /* filter21.txt */,
+				2002F4101BB24724002CCFF0 /* filter22.txt */,
+				2002F4111BB24724002CCFF0 /* filter23.txt */,
+				2002F4121BB24724002CCFF0 /* filter24.txt */,
+				2002F4131BB24724002CCFF0 /* filter25.txt */,
+				2002F4141BB24724002CCFF0 /* filter26.txt */,
+				2002F4151BB24724002CCFF0 /* filter27.txt */,
+				2002F4161BB24724002CCFF0 /* filter28.txt */,
+				2002F4171BB24724002CCFF0 /* filter29.txt */,
+				2002F4181BB24724002CCFF0 /* filter30.txt */,
+				2002F4191BB24724002CCFF0 /* filter31.txt */,
+				2002F41A1BB24724002CCFF0 /* filter32.txt */,
+				2002F41B1BB24724002CCFF0 /* filter33.txt */,
+				2002F41C1BB24724002CCFF0 /* filter34.txt */,
+				2002F41D1BB24724002CCFF0 /* filter35.txt */,
+				2002F41E1BB24724002CCFF0 /* filter36.txt */,
+				2002F41F1BB24724002CCFF0 /* filter37.txt */,
+				2002F4201BB24724002CCFF0 /* filter38.txt */,
+				2002F4211BB24724002CCFF0 /* Theta2.txt */,
+				2002F4221BB24724002CCFF0 /* Theta1.txt */,
+				2002F4231BB24724002CCFF0 /* dict.txt */,
+				20D64D331BABC60E00800DDA /* haarcascade_frontalface_alt2.xml */,
+				2002F3EA1BB1D5E8002CCFF0 /* fdict.txt */,
+				206225B81BABD85D00C49205 /* haarcascade_eye.xml */,
+				52DD7FA81B9DEA2E001257DD /* lena.png */,
+				52DD7F811B9DEA0D001257DD /* Info.plist */,
+				52DD7F821B9DEA0D001257DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52DD7F991B9DEA0D001257DD /* Intro_iOS_OpenCVTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DD7F9C1B9DEA0D001257DD /* Intro_iOS_OpenCVTests.m */,
+				52DD7F9A1B9DEA0D001257DD /* Supporting Files */,
+			);
+			path = Intro_iOS_OpenCVTests;
+			sourceTree = "<group>";
+		};
+		52DD7F9A1B9DEA0D001257DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52DD7F9B1B9DEA0D001257DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DD7F7C1B9DEA0D001257DD /* Intro_iOS_OpenCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DD7FA01B9DEA0D001257DD /* Build configuration list for PBXNativeTarget "Intro_iOS_OpenCV" */;
+			buildPhases = (
+				52DD7F791B9DEA0D001257DD /* Sources */,
+				52DD7F7A1B9DEA0D001257DD /* Frameworks */,
+				52DD7F7B1B9DEA0D001257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intro_iOS_OpenCV;
+			productName = Intro_iOS_OpenCV;
+			productReference = 52DD7F7D1B9DEA0D001257DD /* Intro_iOS_OpenCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52DD7F951B9DEA0D001257DD /* Intro_iOS_OpenCVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DD7FA31B9DEA0D001257DD /* Build configuration list for PBXNativeTarget "Intro_iOS_OpenCVTests" */;
+			buildPhases = (
+				52DD7F921B9DEA0D001257DD /* Sources */,
+				52DD7F931B9DEA0D001257DD /* Frameworks */,
+				52DD7F941B9DEA0D001257DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52DD7F981B9DEA0D001257DD /* PBXTargetDependency */,
+			);
+			name = Intro_iOS_OpenCVTests;
+			productName = Intro_iOS_OpenCVTests;
+			productReference = 52DD7F961B9DEA0D001257DD /* Intro_iOS_OpenCVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DD7F751B9DEA0D001257DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = CMU_16432;
+				TargetAttributes = {
+					52DD7F7C1B9DEA0D001257DD = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = DV8BHX326P;
+					};
+					52DD7F951B9DEA0D001257DD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52DD7F7C1B9DEA0D001257DD;
+					};
+				};
+			};
+			buildConfigurationList = 52DD7F781B9DEA0D001257DD /* Build configuration list for PBXProject "Intro_iOS_OpenCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DD7F741B9DEA0D001257DD;
+			productRefGroup = 52DD7F7E1B9DEA0D001257DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DD7F7C1B9DEA0D001257DD /* Intro_iOS_OpenCV */,
+				52DD7F951B9DEA0D001257DD /* Intro_iOS_OpenCVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DD7F7B1B9DEA0D001257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2002F44A1BB24724002CCFF0 /* Theta2.txt in Resources */,
+				2002F4391BB24724002CCFF0 /* filter22.txt in Resources */,
+				2002F4241BB24724002CCFF0 /* filter1.txt in Resources */,
+				52DD7F8C1B9DEA0D001257DD /* Main.storyboard in Resources */,
+				2002F4451BB24724002CCFF0 /* filter34.txt in Resources */,
+				52DD7F911B9DEA0D001257DD /* LaunchScreen.xib in Resources */,
+				2002F4421BB24724002CCFF0 /* filter31.txt in Resources */,
+				2002F3EB1BB1D5E8002CCFF0 /* fdict.txt in Resources */,
+				2002F43E1BB24724002CCFF0 /* filter27.txt in Resources */,
+				2002F43A1BB24724002CCFF0 /* filter23.txt in Resources */,
+				2002F4251BB24724002CCFF0 /* filter2.txt in Resources */,
+				2002F4411BB24724002CCFF0 /* filter30.txt in Resources */,
+				2074182E1BBBB2F1008107F2 /* c4.jpg in Resources */,
+				20D64D341BABC60F00800DDA /* haarcascade_frontalface_alt2.xml in Resources */,
+				207418241BBBB180008107F2 /* c2.jpg in Resources */,
+				2002F4361BB24724002CCFF0 /* filter19.txt in Resources */,
+				2002F42A1BB24724002CCFF0 /* filter7.txt in Resources */,
+				2002F4471BB24724002CCFF0 /* filter36.txt in Resources */,
+				2002F4281BB24724002CCFF0 /* filter5.txt in Resources */,
+				2002F4341BB24724002CCFF0 /* filter17.txt in Resources */,
+				52DD7F8E1B9DEA0D001257DD /* Images.xcassets in Resources */,
+				206225B91BABD85D00C49205 /* haarcascade_eye.xml in Resources */,
+				2002F42C1BB24724002CCFF0 /* filter9.txt in Resources */,
+				2002F3F11BB1F62E002CCFF0 /* armadillo_bits in Resources */,
+				207418281BBBB22D008107F2 /* c3.jpg in Resources */,
+				2002F4291BB24724002CCFF0 /* filter6.txt in Resources */,
+				2002F43B1BB24724002CCFF0 /* filter24.txt in Resources */,
+				2002F3F01BB1F62E002CCFF0 /* armadillo in Resources */,
+				2002F43D1BB24724002CCFF0 /* filter26.txt in Resources */,
+				2002F4321BB24724002CCFF0 /* filter15.txt in Resources */,
+				2074180D1BBB9CD0008107F2 /* c1.jpg in Resources */,
+				2002F4371BB24724002CCFF0 /* filter20.txt in Resources */,
+				2002F44B1BB24724002CCFF0 /* Theta1.txt in Resources */,
+				2002F42E1BB24724002CCFF0 /* filter11.txt in Resources */,
+				2002F43F1BB24724002CCFF0 /* filter28.txt in Resources */,
+				2002F42D1BB24724002CCFF0 /* filter10.txt in Resources */,
+				2002F4261BB24724002CCFF0 /* filter3.txt in Resources */,
+				2002F4311BB24724002CCFF0 /* filter14.txt in Resources */,
+				2002F44C1BB24724002CCFF0 /* dict.txt in Resources */,
+				2002F4491BB24724002CCFF0 /* filter38.txt in Resources */,
+				2002F4271BB24724002CCFF0 /* filter4.txt in Resources */,
+				2002F42B1BB24724002CCFF0 /* filter8.txt in Resources */,
+				2002F4441BB24724002CCFF0 /* filter33.txt in Resources */,
+				2074180B1BBB921E008107F2 /* start.jpg in Resources */,
+				52DD7FA91B9DEA2E001257DD /* lena.png in Resources */,
+				2002F4351BB24724002CCFF0 /* filter18.txt in Resources */,
+				2002F4461BB24724002CCFF0 /* filter35.txt in Resources */,
+				207418301BBBB317008107F2 /* c5.jpg in Resources */,
+				2002F4301BB24724002CCFF0 /* filter13.txt in Resources */,
+				2074181E1BBBB13D008107F2 /* start.png in Resources */,
+				2002F4401BB24724002CCFF0 /* filter29.txt in Resources */,
+				2002F42F1BB24724002CCFF0 /* filter12.txt in Resources */,
+				2002F43C1BB24724002CCFF0 /* filter25.txt in Resources */,
+				2002F4481BB24724002CCFF0 /* filter37.txt in Resources */,
+				207418321BBBB3F4008107F2 /* c6.jpg in Resources */,
+				2002F4431BB24724002CCFF0 /* filter32.txt in Resources */,
+				2002F4331BB24724002CCFF0 /* filter16.txt in Resources */,
+				2002F4381BB24724002CCFF0 /* filter21.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DD7F941B9DEA0D001257DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DD7F791B9DEA0D001257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DD7F891B9DEA0D001257DD /* ViewController.mm in Sources */,
+				2002F3FA1BB228D1002CCFF0 /* SceneRec.mm in Sources */,
+				52DD7F861B9DEA0D001257DD /* AppDelegate.m in Sources */,
+				52DD7F831B9DEA0D001257DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52DD7F921B9DEA0D001257DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DD7F9D1B9DEA0D001257DD /* Intro_iOS_OpenCVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52DD7F981B9DEA0D001257DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52DD7F7C1B9DEA0D001257DD /* Intro_iOS_OpenCV */;
+			targetProxy = 52DD7F971B9DEA0D001257DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52DD7F8A1B9DEA0D001257DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DD7F8B1B9DEA0D001257DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DD7F8F1B9DEA0D001257DD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DD7F901B9DEA0D001257DD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DD7F9E1B9DEA0D001257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DD7F9F1B9DEA0D001257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DD7FA11B9DEA0D001257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Intro_iOS_OpenCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMU-16432Intro-iOS-OpenCV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		52DD7FA21B9DEA0D001257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Intro_iOS_OpenCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CMU-16432Intro-iOS-OpenCV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		52DD7FA41B9DEA0D001257DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Intro_iOS_OpenCVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro_iOS_OpenCV.app/Intro_iOS_OpenCV";
+			};
+			name = Debug;
+		};
+		52DD7FA51B9DEA0D001257DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Intro_iOS_OpenCVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Intro_iOS_OpenCV.app/Intro_iOS_OpenCV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DD7F781B9DEA0D001257DD /* Build configuration list for PBXProject "Intro_iOS_OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DD7F9E1B9DEA0D001257DD /* Debug */,
+				52DD7F9F1B9DEA0D001257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DD7FA01B9DEA0D001257DD /* Build configuration list for PBXNativeTarget "Intro_iOS_OpenCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DD7FA11B9DEA0D001257DD /* Debug */,
+				52DD7FA21B9DEA0D001257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DD7FA31B9DEA0D001257DD /* Build configuration list for PBXNativeTarget "Intro_iOS_OpenCVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DD7FA41B9DEA0D001257DD /* Debug */,
+				52DD7FA51B9DEA0D001257DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DD7F751B9DEA0D001257DD /* Project object */;
+}
